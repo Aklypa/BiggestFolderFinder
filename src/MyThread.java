@@ -4,7 +4,6 @@ public class MyThread extends Thread {
     public MyThread (int threadNumber) {
         this.threadNumber = threadNumber;
     }
-
     @Override
     public void run() {
         for (;;) {
